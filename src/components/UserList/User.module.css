@@ -1,0 +1,63 @@
+.user_list i {
+  color: gray;
+}
+.user_list {
+  display: flex;
+}
+.name {
+  width: 100%;
+  max-width: 160px;
+  padding-left: 15px;
+}
+.lastname {
+  width: 100%;
+  max-width: 160px;
+}
+.email {
+  width: 100%;
+  max-width: 267px;
+}
+.number {
+  width: 100%;
+  max-width: 166.6px;
+}
+.two_actions {
+  width: 100%;
+  max-width: 166.5px;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  border: none;
+  background-color: #fff;
+}
+.first_btn {
+  margin-right: 25px;
+  border: none;
+  background-color: #fff;
+}
+.first_btn:hover {
+  cursor: pointer;
+}
+
+.second_btn {
+  border: none;
+  background-color: #fff;
+}
+.second_btn:hover {
+  cursor: pointer;
+}
+
+.second_btn i {
+  background-color: #fff;
+}
+@media (max-width: 1024px) {
+  .user_list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .name {
+    padding-left: 0;
+  }
+}
