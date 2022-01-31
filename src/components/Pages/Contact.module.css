@@ -1,0 +1,44 @@
+.contact {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.poruka {
+  border: 1px solid rgb(191, 184, 184);
+  padding: 25px;
+  border-radius: 16px;
+}
+
+.poruka div {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.poruka div input {
+  padding: 6px;
+  border-radius: 6px;
+  resize: both;
+}
+.contactBtn {
+  width: 100%;
+  max-width: 404px;
+  height: 56px;
+  background-color: #3faad7;
+  border-radius: 16px;
+  border: none;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 26px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2);
+  transition: ease-out 0.5s;
+}
+.contactBtn:hover {
+  cursor: pointer;
+  background: #34a0ce;
+}
+textarea {
+  padding: 6px;
+  border-radius: 6px;
+}

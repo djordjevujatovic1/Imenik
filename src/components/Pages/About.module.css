@@ -1,0 +1,13 @@
+.about {
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  color: #0a0101;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.opisAp {
+  max-width: 500px;
+}
